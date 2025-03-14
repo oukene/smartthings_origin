@@ -2,7 +2,7 @@
 import os
 import sys
 
-from custom_components.smartthings_customize.httpsig.verify import HeaderVerifier
+from custom_components.smartthings_origin.httpsig.verify import HeaderVerifier
 #from httpsig.verify import HeaderVerifier
 from .errors import SignatureVerificationError
 
