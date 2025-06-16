@@ -7,9 +7,9 @@ from homeassistant.const import Platform
 
 DOMAIN = "smartthings_origin"
 
-APP_OAUTH_CLIENT_NAME = "Home Assistant"
-APP_OAUTH_SCOPES = ["r:devices:*", "r:devices:*","w:devices:*","x:devices:*","l:devices","r:locations:*", "w:locations:*", "x:locations:*","r:scenes:*", "x:scenes:*", "r:installedapps:*", "l:installedapps"]
-APP_NAME_PREFIX = "homeassistant."
+APP_OAUTH_CLIENT_NAME = "SmartThings Origin"
+APP_OAUTH_SCOPES = ["r:devices:*", "r:devices:*","w:devices:*","x:devices:*","l:devices","r:locations:*", "w:locations:*", "x:locations:*","r:scenes:*", "x:scenes:*", "r:installedapps:*", "l:installedapps", "w:installedapps"]
+APP_NAME_PREFIX = "smnartthiings_origin."
 
 CONF_APP_ID = "app_id"
 CONF_CLOUDHOOK_URL = "cloudhook_url"
