@@ -278,7 +278,7 @@ async def async_remove_entry(hass: HomeAssistant, entry: ConfigEntry) -> None:
         await unload_smartapp_endpoint(hass)
 
     # Remove Info
-    await async_remove_app_info(app_id)
+    await async_remove_app_info(hass,app_id)
 
 
 class DeviceBroker:
